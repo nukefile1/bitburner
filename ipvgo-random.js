@@ -7,7 +7,7 @@ const argsSchema = [
 ];
 const maxGameTime = 5*60;
 const getTimeSeconds = () => Math.round(performance.now()/1000);
-const opponentsNames = ["Netburners", "Slum Snakes", "The Black Hand", "Tetrads", "Daedalus", "Illuminati", "????????????"];
+const opponentsNames = ["Netburners", "Slum Snakes", "The Black Hand", "Tetrads", "Daedalus", "Illuminati"]; //,"????????????"];
 const practiceName = "No Ai"
 
 const boardSize = [5, 7, 9, 13];
